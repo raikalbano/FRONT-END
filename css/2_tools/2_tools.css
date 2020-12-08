@@ -23,4 +23,38 @@
     #footer{
         margin-top: 600px;
     }
+    
+    #navegation{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: #6066f2;
+        /*left: -100%;*/
+        z-index: 10;
+    }
+
+    #navegation > ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    #navegation > ul > li{
+        padding: 30px 0;
+
+    }
+
+    #navegation > ul > li > a {
+        color: #fff !important;
+        border: none !important;
+        font-size: 25px !important;
+
+    }
+
+    #navegation > ul > li > a:hover {
+        color: #f4891f !important;
+
+    } 
 }
