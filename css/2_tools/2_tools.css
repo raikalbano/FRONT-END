@@ -1,0 +1,26 @@
+@media only screen and (max-width: 550px){
+    #brand{
+        margin-left: 15px;
+    }
+
+    #bag, #login{
+        display: none;
+    }
+
+    #fone > img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: .5;
+    }
+
+    #article{
+        position: absolute;
+        left: 0;   
+    }
+
+    #footer{
+        margin-top: 600px;
+    }
+}
